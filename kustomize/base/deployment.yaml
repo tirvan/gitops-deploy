@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: todo-app
-          image: registry.ocp4.example.com:8443/redhattraining/todo-angular:v1.1
+          image: quay.io/tanirvan/todo-angular:v1.1
           resources:
             requests:
               cpu: 10m
